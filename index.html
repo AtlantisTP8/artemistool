@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTYR Security</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">ARTYR</div>
+
+    <nav>
+        <a href="#products">Products</a>
+        <a class="download-btn" href="#" id="downloadBtn">
+            Download
+        </a>
+        <a href="#about">About</a>
+    </nav>
+</header>
+
+<section class="hero">
+
+    <div class="left">
+        <div class="badge">Your Digital Third Eye</div>
+
+        <h1>
+            Security, visibility and control — all under Artyr.
+        </h1>
+
+        <p>
+            Start with Artemis Terminal and expand into the Artyr ecosystem.
+        </p>
+
+        <a class="download-btn" href="#">
+            Download Artemis Terminal
+        </a>
+    </div>
+
+    <div class="right">
+        <div class="card">TPM Integrity: Verified</div>
+        <div class="card">System Diagnostics: Active</div>
+        <div class="card">Cloud Protection: Expanding</div>
+    </div>
+
+</section>
+
+<section id="products">
+
+    <h2>Artyr Ecosystem</h2>
+
+    <div class="products">
+
+        <div class="product">
+            <h3>Artemis Terminal</h3>
+            <p>Windows security terminal.</p>
+        </div>
+
+        <div class="product">
+            <h3>Artyr Cloud</h3>
+            <p>Threat intelligence.</p>
+        </div>
+
+        <div class="product">
+            <h3>E-Artemis</h3>
+            <p>Future security tools.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+<!-- MODAL -->
+<!-- MODAL -->
+<div id="modal" class="modal hidden">
+    <div class="modal-box">
+
+        <h2>Select Product</h2>
+
+        <div class="store-grid">
+
+            <div class="store-card" data-product="artemis">
+                <div class="title">Artemis Terminal</div>
+                <div class="desc">Windows Security Terminal</div>
+            </div>
+
+            <div class="store-card" data-product="arty r">
+                <div class="title">Artyr</div>
+                <div class="desc">Core Security Engine</div>
+            </div>
+
+            <div class="store-card" data-product="eartemis">
+                <div class="title">E-Artemis</div>
+                <div class="desc">Future AI Tools</div>
+            </div>
+
+        </div>
+
+        <h2>Select OS</h2>
+
+        <div class="grid">
+
+            <div class="card-os" data-os="windows">Windows</div>
+            <div class="card-os" data-os="linux">Linux</div>
+            <div class="card-os" data-os="mac">Mac</div>
+
+        </div>
+
+        <!-- BUTTONS BURADA OLMALI -->
+        <button id="confirmDownload">Download</button>
+        <button id="closeModal">Cancel</button>
+
+    </div>
+</div>
+
+</body>
+</html>
